@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.3">
+  <diagram name="Page-1" id="Jlbrlp8xmUTj2P3q410a">
+    <mxGraphModel dx="899" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DW8ZizGL6kf7LkhrIOHm-26" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" value="PostgreSQL" vertex="1">
+          <mxGeometry height="90" width="140" x="410" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DW8ZizGL6kf7LkhrIOHm-27" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" value="Client Browser" vertex="1">
+          <mxGeometry height="80" width="120" x="220" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DW8ZizGL6kf7LkhrIOHm-28" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" value="" vertex="1">
+          <mxGeometry height="140" width="190" x="400" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="DW8ZizGL6kf7LkhrIOHm-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Application Server" vertex="1">
+          <mxGeometry height="30" width="115" x="450" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="DW8ZizGL6kf7LkhrIOHm-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Auth-Serice, Shift-Controller, Report Engine (Google API)" vertex="1">
+          <mxGeometry height="30" width="115" x="437.5" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="DW8ZizGL6kf7LkhrIOHm-32" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="OAuth 2.0 Server&lt;br&gt;Google Calendar API&lt;br&gt;Google Sheets API&lt;br&gt;Google Docs API" vertex="1">
+          <mxGeometry height="150" width="210" x="630" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DW8ZizGL6kf7LkhrIOHm-33" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="230" as="sourcePoint" />
+            <mxPoint x="380" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DW8ZizGL6kf7LkhrIOHm-34" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=80;entryDy=90;entryPerimeter=0;" target="DW8ZizGL6kf7LkhrIOHm-26" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="490" y="230" as="sourcePoint" />
+            <mxPoint x="540" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DW8ZizGL6kf7LkhrIOHm-35" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="DW8ZizGL6kf7LkhrIOHm-32" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="600" y="300" as="sourcePoint" />
+            <mxPoint x="600" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

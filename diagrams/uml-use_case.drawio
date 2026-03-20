@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.3">
+  <diagram name="Page-1" id="JkbBQYFk2PfNcRNau5ue">
+    <mxGraphModel dx="754" dy="423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aAU1Rq6uxPvZ5d9Ry9E8-4" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;" value="" vertex="1">
+          <mxGeometry height="50" width="26.5" x="186.75" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="aAU1Rq6uxPvZ5d9Ry9E8-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Менеджер" vertex="1">
+          <mxGeometry height="30" width="60" x="170" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="aAU1Rq6uxPvZ5d9Ry9E8-6" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;" value="" vertex="1">
+          <mxGeometry height="50" width="26.5" x="303.5" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="aAU1Rq6uxPvZ5d9Ry9E8-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Сотрудник" vertex="1">
+          <mxGeometry height="30" width="60" x="286.75" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="aAU1Rq6uxPvZ5d9Ry9E8-8" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;" value="" vertex="1">
+          <mxGeometry height="50" width="26.5" x="413.5" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="aAU1Rq6uxPvZ5d9Ry9E8-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Google API" vertex="1">
+          <mxGeometry height="30" width="60" x="396.75" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="aAU1Rq6uxPvZ5d9Ry9E8-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Авторизация через OAuth" vertex="1">
+          <mxGeometry height="60" width="100" x="120" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="aAU1Rq6uxPvZ5d9Ry9E8-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Управление зонами на карте" vertex="1">
+          <mxGeometry height="60" width="100" x="256.5" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="aAU1Rq6uxPvZ5d9Ry9E8-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Назначение смены" vertex="1">
+          <mxGeometry height="60" width="100" x="400" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="aAU1Rq6uxPvZ5d9Ry9E8-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Ввод данных о растениях" vertex="1">
+          <mxGeometry height="60" width="100" x="200" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="aAU1Rq6uxPvZ5d9Ry9E8-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Экспорт отчётов в Google Docs" vertex="1">
+          <mxGeometry height="60" width="100" x="340" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="aAU1Rq6uxPvZ5d9Ry9E8-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="180" width="446.75" x="90" y="350" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

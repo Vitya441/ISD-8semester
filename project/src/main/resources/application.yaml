@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: project
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: ${app.keycloak.serverUrl}/realms/${app.keycloak.realm}
+  datasource:
+    url: ${DATASOURCE_URL}
+    username: ${DATASOURCE_USERNAME}
+    password: ${DATASOURCE_PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+app:
+  keycloak:
+    adminClientId: admin-cli
+    adminClientSecret: ${KEYCLOAK_SECRET:test}
+    userClientId: spring-security
+    realm: test-realm
+    serverUrl: http://localhost:9091
+    scheduler:
+      cron-every-5-seconds: "0/5 * * * * *"
